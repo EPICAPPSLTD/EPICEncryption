@@ -15,10 +15,10 @@ enum EPICDataCryptographyError : ErrorType {
     /// Error specifying that the passed key is invalid and cannot be used to encrypt the data, normally happens then the key is empty
     case InvalidKey
     
-    /// Error specifying that the passed key is invalid and cannot be used to encrypt the data, normally happens then the key is empty
+    /// Error thrown when an encryption could not be made due to an unknown error
     case CouldNotEncrypt
     
-    /// Error specifying that the passed key is invalid and cannot be used to encrypt the data, normally happens then the key is empty
+    /// Error thrown when an decryption could not be made due the key being incorrect
     case CouldNotDecrypt
 }
 
