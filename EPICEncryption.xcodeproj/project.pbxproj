@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F06FF2B1C42FF890034062D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F06FF2A1C42FF890034062D /* Info.plist */; };
 		8F3A099B1BE0323B00B03935 /* NSData+Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A099A1BE0323B00B03935 /* NSData+Encryption.swift */; };
 		8F8C3E091AD92CBA00CB431E /* LICENCE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C3E081AD92CBA00CB431E /* LICENCE.txt */; };
 		8FEDA7E01BF3E28E00F73DAC /* NSDataEncryptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4599121BF3DE5F000F22D1 /* NSDataEncryptionTests.swift */; };
@@ -28,11 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F06FF2A1C42FF890034062D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = SOURCE_ROOT; };
 		8F3A09991BE031CA00B03935 /* EPICEncryption-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EPICEncryption-Bridging-Header.h"; sourceTree = "<group>"; };
 		8F3A099A1BE0323B00B03935 /* NSData+Encryption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+Encryption.swift"; sourceTree = "<group>"; };
 		8F4599121BF3DE5F000F22D1 /* NSDataEncryptionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDataEncryptionTests.swift; path = ../Tests/NSDataEncryptionTests.swift; sourceTree = "<group>"; };
 		8F4599341BF3E1EB000F22D1 /* EPICEncryptionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPICEncryptionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F4599381BF3E1EB000F22D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F8C3E081AD92CBA00CB431E /* LICENCE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE.txt; sourceTree = SOURCE_ROOT; };
 		8FF3A4511AD068DD00547D53 /* EPICEncryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPICEncryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF3A4ED1AD07DD800547D53 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,7 +65,7 @@
 		8F4599351BF3E1EB000F22D1 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				8F4599381BF3E1EB000F22D1 /* Info.plist */,
+				8F06FF2A1C42FF890034062D /* Info.plist */,
 				8F4599121BF3DE5F000F22D1 /* NSDataEncryptionTests.swift */,
 			);
 			name = Tests;
@@ -420,6 +421,7 @@
 				8F8C3E091AD92CBA00CB431E /* LICENCE.txt in Resources */,
 				8FF3A5131AD07DD800547D53 /* LaunchScreen.xib in Resources */,
 				8FF3A5111AD07DD800547D53 /* Images.xcassets in Resources */,
+				8F06FF2B1C42FF890034062D /* Info.plist in Resources */,
 				8FF3A5141AD07DD800547D53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

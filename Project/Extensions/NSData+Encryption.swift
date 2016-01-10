@@ -73,7 +73,6 @@ extension NSData {
             }
         }
         throw EPICDataCryptographyError.CouldNotEncrypt
-
     }
     
 }
