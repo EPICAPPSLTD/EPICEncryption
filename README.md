@@ -8,7 +8,8 @@ var data : NSData = ...some data...
 data = data.encryptUsingKey("some super secret key string") //data is now encrypted and cannot be read
 data = decryptUsingKey("some super secret key string") // data is now decrypted back into its original state
 ```
-Usage is free for all based on the attached license details, if you find this code useful, please consider [making a donation](http://epic-apps.uk/donations/). :)
+
+Usage is free for all based on the attached license details, if you find this code useful, please consider [letting me know](helloworld@epic-apps.uk)! :)
 
 Copyright (c) EPIC 
 [www.epic-apps.uk](www.epic-apps.uk)
