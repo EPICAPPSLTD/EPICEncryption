@@ -9,7 +9,7 @@ data = data.encryptUsingKey("some super secret key string") //data is now encryp
 data = decryptUsingKey("some super secret key string") // data is now decrypted back into its original state
 ```
 
-Usage is free for all based on the attached license details, if you find this code useful, please consider [letting me know](helloworld@epic-apps.uk)! :)
+Usage is free for all based on the attached license details, if you find this code useful, please consider [letting me know](http://epic-apps.uk/contact/)! :)
 
 Copyright (c) EPIC 
 [www.epic-apps.uk](www.epic-apps.uk)
